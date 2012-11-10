@@ -34,7 +34,7 @@ sub request {
         browser_properties => [ $detect->{'category'} ],
         is_robot  => $detect->{'category'} eq 'crawler',
     );
-    
+
     if($data{'version'}{'full'} =~ m/^(\d+)\.(\d+)/) {
         $data{'version'}{'major'} = $1;
         $data{'version'}{'minor'} = $1;
