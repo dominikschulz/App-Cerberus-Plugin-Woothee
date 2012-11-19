@@ -65,6 +65,15 @@ to Cerberus. For instance:
         "os": "iOS"
     }
 
+=method init
+
+Initialize the plugin with an empty cache.
+
+=method request
+
+Extract the user agent information from an user agent string
+passed in the ua arg.
+
 =head1 REQUEST PARAMS
 
 User-Agent information is returned when an User-Agent value is passed in:
